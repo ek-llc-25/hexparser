@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "rgb.h"
 
+// https://github.com/ek-llc-25/hexparser
 int main(void) {
     char red_s[] = "#FF0000";
     struct rgb_t red = parse_rgb(red_s);
